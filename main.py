@@ -12,7 +12,7 @@ class Demonstration:
     def do_process(self) -> None:
         self.recursive_method(1)
 
-    def recursive_method(self, depth:int) -> None:
+    def recursive_method(self, depth: int) -> None:
         if depth > self.max_depth:
             return
         self.draw_row(depth)

@@ -5,7 +5,6 @@ import functools
 import traceback
 
 
-
 def log_start_stop_method(func: Callable[..., Any]) -> Callable[..., Any]:
     """
     Based on an example by Arjan of arjancodes.com: https://www.youtube.com/watch?v=QH5fw9kxDQA
